@@ -1,0 +1,132 @@
+/* Fonts */
+
+@font-face {
+    font-family: "broken";
+    src: url("./mandalore.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    font-family: 'raleway';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.europa {
+    font-family: 'notera';
+    font-weight: '700';
+}
+
+.regular {
+    font-family: 'raleway';
+    font-weight: '500';
+}
+
+.broken {
+    font-family: 'broken';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.clock {
+    background-image: url('./cock.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+
+.title {
+    color: #fff;
+    font-size: 15em;
+    margin: -0.25em 0 -0.2em 0;
+}
+
+.creditsimg {
+    width: 100%;
+}
+
+.yoker {
+    text-align: right;
+}
+
+.details {
+    display: inline-block;
+    margin-top: 15em;
+    color: #fff;
+}
+
+.name {
+    font-size: 1.35em;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Trick */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    padding: 1em 0;
+    padding: 1em 0;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer, footer a {
+    color: rgb(129, 129, 129);
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#about, #credits {
+    padding: 1em 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.hi {
+    font-weight: 700;
+    color: #fff;
+}
