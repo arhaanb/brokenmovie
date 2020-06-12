@@ -116,7 +116,6 @@ body {
     padding: 1em 0;
 }
 
-
 .flex {
     display: flex;
     justify-content: space-around;
@@ -166,7 +165,7 @@ footer, footer a {
 .respdeet {
     display: none;
     color: #fff;
-    margin-top: 1vh;
+    margin-top: 3vh;
 }
 
 @media (min-width: 750px) {
@@ -185,8 +184,11 @@ footer, footer a {
     .respdeet {
         display: block;
     }
+    .soon {
+        font-size: 5vw;
+    }
     .clock {
-        height: 60vh;
+        height: 50vh;
     }
     .respdeet {
         display: inline-block;
@@ -202,5 +204,11 @@ footer, footer a {
     }
     .flexcol {
         display: none;
+    }
+}
+
+@media (max-height: 450px) {
+    .bottom {
+        position: relative;
     }
 }
