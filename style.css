@@ -110,16 +110,12 @@ body {
     flex-direction: column;
 }
 
-footer {
+.bottom {
     margin-top: auto;
     padding: 1em 0;
     padding: 1em 0;
 }
 
-.bottom {
-    position: absolute;
-    bottom: 0;
-}
 
 .flex {
     display: flex;
@@ -170,7 +166,7 @@ footer, footer a {
 .respdeet {
     display: none;
     color: #fff;
-    margin-top: 4em;
+    margin-top: 1vh;
 }
 
 @media (min-width: 750px) {
