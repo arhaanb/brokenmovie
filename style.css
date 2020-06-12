@@ -52,22 +52,41 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
     color: #fff;
-    font-size: 15em;
+    font-size: 15vw;
     margin: -0.25em 0 -0.2em 0;
+}
+
+.rono, .yoker {
+    font-size: 2vw;
 }
 
 .creditsimg {
     width: 100%;
 }
 
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .yoker {
     text-align: right;
 }
 
+.rono {
+    margin-left: 0.18em;
+}
+
 .details {
     display: inline-block;
-    margin-top: 15em;
     color: #fff;
+}
+
+.flexcol {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
 }
 
 .name {
@@ -139,4 +158,53 @@ footer, footer a {
 .hi {
     font-weight: 700;
     color: #fff;
+}
+
+.flexrow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.respdeet {
+    display: none;
+    color: #fff;
+    margin-top: 4em;
+}
+
+@media (min-width: 750px) {
+    .flexrow {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .details {
+        display: none;
+    }
+    .clock.six.columns {
+        width: 100%;
+    }
+    .respdeet {
+        display: block;
+    }
+    .clock {
+        height: 60vh;
+    }
+    .respdeet {
+        display: inline-block;
+    }
+    .respdeet .rono {
+        font-size: 4vw;
+    }
+    .respdeet .yoker {
+        font-size: 4vw;
+    }
+    .respdeet .title {
+        font-size: 32vw;
+    }
+    .flexcol {
+        display: none;
+    }
 }
