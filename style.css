@@ -116,6 +116,10 @@ footer, footer a {
     color: rgb(129, 129, 129);
 }
 
+#about {
+    text-align: center;
+}
+
 .bottom {
     position: absolute;
     bottom: 0;
