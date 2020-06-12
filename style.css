@@ -1,5 +1,6 @@
 /* Fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @font-face {
     font-family: "broken";
     src: url("./mandalore.ttf");
@@ -10,15 +11,11 @@
 body {
     background-color: #000;
     font-family: 'raleway';
+    font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-}
-
-.europa {
-    font-family: 'notera';
-    font-weight: '700';
 }
 
 .regular {
@@ -54,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-size: 15vw;
     margin: -0.25em 0 -0.2em 0;
+    opacity: 0.6;
 }
 
 .rono, .yoker {
@@ -72,10 +70,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .yoker {
     text-align: right;
+    opacity: 0.4;
 }
 
 .rono {
     margin-left: 0.18em;
+    opacity: 0.4;
 }
 
 .details {
@@ -132,6 +132,7 @@ footer, footer a {
 
 #about {
     text-align: center;
+    font-family: 'open sans';
 }
 
 .bottom {
@@ -142,7 +143,7 @@ footer, footer a {
 
 #about, #credits {
     padding: 1em 0;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
 }
 
