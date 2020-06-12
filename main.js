@@ -1,14 +1,14 @@
 $('#about, #credits').hide()
 
 $(".about").click(function () {
-    $('#about').toggle();
+    $('#about').slideToggle();
     $('#credits').hide();
     $('.about').toggleClass('hi');
     $('.credits').removeClass('hi');
 });
 
 $(".credits").click(function () {
-    $('#credits').toggle();
+    $('#credits').slideToggle();
     $('#about').hide();
     $('.credits').toggleClass('hi');
     $('.about').removeClass('hi');
@@ -17,7 +17,7 @@ $(".credits").click(function () {
 
 $(document).on('click', function (event) {
     // ... clicked on the 'body', but not inside of #nav-hid
-    $('#about, #credits').hide();
+    $('#about, #credits').fadeOut();
     $('.about, .credits').removeClass('hi');
 });
 
