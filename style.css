@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clock {
-    background-image: url('./clock.png');
+    background-image: url('./images/clock.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
