@@ -145,6 +145,7 @@ footer, footer a {
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
+    display: none;
 }
 
 .link {

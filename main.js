@@ -1,5 +1,3 @@
-$('#about, #credits').hide()
-
 $(".about").click(function () {
     $('#about').slideToggle();
     $('#credits').hide();
@@ -16,7 +14,6 @@ $(".credits").click(function () {
 
 
 $(document).on('click', function (event) {
-    // ... clicked on the 'body', but not inside of #nav-hid
     $('#about, #credits').fadeOut();
     $('.about, .credits').removeClass('hi');
 });
@@ -27,6 +24,3 @@ $('.reveal').on('click', function (event) {
 $('.link').on('click', function (event) {
     event.stopPropagation();
 });
-// $('#lines').on('click', function (event) {
-//     event.stopPropagation();
-// });
