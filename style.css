@@ -172,6 +172,11 @@ footer, footer a {
 	color: #fff;
 }
 
+.foot {
+	background-color: #000;
+	transition: 1s;
+}
+
 .flexrow {
 	display: flex;
 	align-items: center;
